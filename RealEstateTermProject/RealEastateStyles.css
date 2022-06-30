@@ -1,0 +1,246 @@
+#allPage {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #000000;
+    overflow: auto;
+    padding-top: 30px;
+}
+
+#home {
+    float: right; 
+    font-size: small;
+    position: relative;
+    right: 15px;
+}
+    
+
+body {font-family:Verdana, Arial, sans-serif;
+    margin: 0;
+    background-color: rgba(210, 180, 140, 0.08);
+    
+}
+header { background-color: #869dc7; 
+      padding: 10px 10px 10px;
+      width: 100%; 
+}
+
+#realtor {
+    float: center;
+    position: relative;
+    right: -175px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+.fieldLabel {
+    vertical-align: top;
+    text-align: right;
+    position: relative;
+    right: 70px;
+}
+
+#reqAsterisk {
+    position: relative;
+    left: 175px;
+}
+
+input {
+    height: 30px;
+    position: relative;
+}
+
+#personal {
+    position: relative;
+    left: 22px;
+}
+
+#homeInfoContainer{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homeInfo {
+    position: relative;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.paraHeader {
+    font-size: 170%;
+    padding-bottom: 10px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+#linkContainer {
+    display: flex;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 140px;
+}
+
+#propertyContainer {
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 50px;
+    left: -80px;   
+    
+}
+
+.property {
+    flex-basis: 270px;
+    margin: 25px;
+    text-align: center;
+}
+
+.credits {
+    flex-basis: 340px;
+    height: 310px;
+    margin: 10px;
+}
+
+.credits  a {
+    text-decoration: none;
+    color: rgb(51,102,187);
+}
+
+.credits a:visited {
+    color: rgb(51,102,187);
+}
+
+.credits  a:hover {
+    color: teal;
+}
+
+.credits  a:visited:hover {
+    color: teal;
+}
+
+.credits li {
+    list-style-type: square;
+}
+
+#container {
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 88px;
+}
+
+.align {
+    flex-basis: 500px;
+    height: 310px;
+    margin: 3px;
+}
+
+#additionalCom {
+    position: relative;
+    padding-top: 30px;
+    left: 190px;
+}
+
+#houseInfoContainer {
+    display: flex;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 50px;
+    left: -80px; 
+}
+
+.houseInfo {
+    flex-basis: 300px;
+    margin: 25px;
+}
+
+#houseInfoAlign {
+    position: relative;
+    top: 30px;
+}
+
+.housePic {
+    padding: 2px;
+    padding-right: 5px;
+}
+
+label {
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+#nav {
+    letter-spacing: 0.1em;
+     font-weight: bold;
+} 
+ 
+footer {
+       text-align: center;
+       padding: 10px;
+       padding-top: 20px;
+       background-color: #869dc7;
+       width: 100%;
+}
+
+#copyright {
+    font-size:70%;
+}
+
+#copyright > a {
+    text-decoration: none;
+}
+
+.footerNav {
+    text-decoration: none;
+    color: orange;
+}
+
+.footerNav > a{
+    padding: 5px;
+}
+
+.footerNav > a:hover{
+    color: teal;
+}
+
+#banner {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 300%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: grey;
+    border-radius: 3px;
+    color: white;
+    width: 100%;
+    position: relative;
+    top: 40px;
+}
+
+#nav a { text-decoration: none; 
+       display: inline-block;
+       padding: 15px;    
+       background-color: #b3c7e6;     
+       border-bottom: 1px solid #ffffff;
+       margin: 0%;
+       
+}
+#nav a:link { color: #ffffff; }
+#nav a:visited { color: #ffffff; }
+#nav a:hover { background-color: #eaeaea;
+                    color: #869dc7;
+}
